@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Jogo da Cobra</title>    
+    <style>
+        #x {
+            display: inline-block;
+        }
+
+        div {
+            font-size: 20px;
+
+
+            text-align: center
+        }
+
+        canvas {
+            display: block;
+            margin: 0 auto;
+        }
+
+        body {
+            background-image: url('https://cdn.discordapp.com/attachments/976111321672212540/984519993624522782/AA873E83-8C81-4202-8031-A6B28D290CB2.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: auto;
+            background-position: center;
+        }
+
+        button {
+                background-color: #4CAF50;
+                border: none;
+                border-radius: 8px;
+                position: absolute;
+                top: 65%;
+                left:46.5%;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+            }
+    </style>
+</head>
+
+<button id="iniciar">Start</button>
+
+<body text="Vermelho">
+
+    <canvas id="tela" width="300" height="300"></canvas>
+
+    <div>
+    Maçãs Coletadas: <div id='macas'>0</div>
+    Pontuação: <div id='pontos'>0</div>
+    </div>
+
+<script src="cobra.js"></script>
+</body>
+
+</html>
