@@ -1,7 +1,7 @@
 Jogo da Cobra 
 
 Nome do jogo: Jogo da Cobracao
-Adaptado por: Raissa Lima Ribeiro - 2219326
+Adaptado por: Raissa Lima Ribeiro
 
 Implementações feitas:
 
